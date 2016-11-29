@@ -17,12 +17,29 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+	
+	[self showImagePicker];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+	[super viewWillDisappear:animated];
+	
+	self.navigationController.navigationBar.hidden = NO;
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+	[super viewWillAppear:animated];
+	
+	self.navigationController.navigationBar.hidden = NO;
+}
+
+- (BOOL)prefersStatusBarHidden {
+	return YES;
 }
 
 - (void)showImagePicker {
