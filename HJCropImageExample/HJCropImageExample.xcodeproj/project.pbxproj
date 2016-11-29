@@ -15,6 +15,7 @@
 		794D7F401DED63B800D2F0EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 794D7F3E1DED63B800D2F0EF /* LaunchScreen.storyboard */; };
 		794D7F4B1DED63B800D2F0EF /* HJCropImageExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 794D7F4A1DED63B800D2F0EF /* HJCropImageExampleTests.m */; };
 		794D7F561DED63B800D2F0EF /* HJCropImageExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 794D7F551DED63B800D2F0EF /* HJCropImageExampleUITests.m */; };
+		794D7F6D1DED8F2B00D2F0EF /* HJCropImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 794D7F6C1DED8F2B00D2F0EF /* HJCropImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		794D7F511DED63B800D2F0EF /* HJCropImageExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJCropImageExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		794D7F551DED63B800D2F0EF /* HJCropImageExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJCropImageExampleUITests.m; sourceTree = "<group>"; };
 		794D7F571DED63B800D2F0EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		794D7F6B1DED8F2B00D2F0EF /* HJCropImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJCropImageViewController.h; sourceTree = "<group>"; };
+		794D7F6C1DED8F2B00D2F0EF /* HJCropImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJCropImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +147,8 @@
 		794D7F6A1DED8C5F00D2F0EF /* HJCropImage */ = {
 			isa = PBXGroup;
 			children = (
+				794D7F6B1DED8F2B00D2F0EF /* HJCropImageViewController.h */,
+				794D7F6C1DED8F2B00D2F0EF /* HJCropImageViewController.m */,
 			);
 			name = HJCropImage;
 			path = ../HJCropImage;
@@ -211,6 +216,7 @@
 		794D7F251DED63B800D2F0EF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HJ;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = HeJun;
 				TargetAttributes = {
@@ -287,6 +293,7 @@
 			files = (
 				794D7F381DED63B800D2F0EF /* ViewController.m in Sources */,
 				794D7F351DED63B800D2F0EF /* AppDelegate.m in Sources */,
+				794D7F6D1DED8F2B00D2F0EF /* HJCropImageViewController.m in Sources */,
 				794D7F321DED63B800D2F0EF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
